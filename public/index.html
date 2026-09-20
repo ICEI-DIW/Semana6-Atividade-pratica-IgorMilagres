@@ -13,8 +13,8 @@
 
     <title>LevelUp</title>
 
-    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -65,121 +65,124 @@
     </header>
 
 
-    <main class="conteudo">
+    <main class="conteudo container-fluid">
 
-        <section class="jogos" id="jogos">
+        <div class="row">
 
-            <article class="jogo-principal">
+            <section class="jogos col-12 col-lg-6" id="jogos">
 
-                <div class="imagem-jogo">
+                <article class="jogo-principal">
 
-                    <img src="farcry4.jpg"
-                         alt="Imagem representando Far Cry 4">
+                    <div class="imagem-jogo">
+
+                        <img src="farcry4.jpg"
+                            alt="Imagem representando Far Cry 4">
+
+                    </div>
+
+
+                    <div class="informacoes-jogo">
+
+                        <h2>Far Cry 4</h2>
+
+                        <p>
+                            <strong>Gênero:</strong>
+                            Ação / Aventura / FPS
+                        </p>
+
+                        <p>
+                            Far Cry 4 acompanha Ajay Ghale em sua jornada
+                            por Kyrat, uma região dominada pelo conflito
+                            e pelo governo de Pagan Min.
+                        </p>
+
+                        <p>
+                            Conheça a história, os personagens, as facções,
+                            armas, vilões e curiosidades desse universo.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="conquistas">
+
+                    <h2>Conquistas</h2>
+
+                    <p>
+                        Existem 57 conquistas. <br>                   
+                        Dificuldade fácil.
+                    </p>
+
+                </article>
+
+            </section>
+
+
+            <section class="personagens col-12 col-lg-6" id="personagens">
+
+                <h2>Personagens em destaque</h2>
+
+
+                <div class="cards row g-3">
+
+                    <article class="card col-12 col-sm-6 col-lg-4">
+
+                        <img src="Ajay Ghale.webp"
+                            alt="Personagem Ajay Ghale">
+
+                        <h3>Ajay Ghale</h3>
+
+                        <p>
+                            Personagem principal de Far Cry 4.
+                        </p>
+
+                    </article>
+
+
+                    <article class="card col-12 col-sm-6 col-lg-4">
+
+                        <img src="Pagan Min.webp"
+                            alt="Personagem Pagan Min">
+
+                        <h3>Pagan Min</h3>
+
+                        <p>
+                            Principal antagonista de Far Cry 4.
+                        </p>
+
+                    </article>
+
+
+                    <article class="card col-12 col-sm-6 col-lg-4">
+
+                        <img src="Ellie.jpg"
+                            alt="Personagem Ellie">
+
+                        <h3>Ellie Williams</h3>
+
+                        <p>
+                            Uma das personagens principais de The Last of Us.
+                        </p>
+
+                    </article>
 
                 </div>
 
+            </section>
 
-                <div class="informacoes-jogo">
-
-                    <h2>Far Cry 4</h2>
-
-                    <p>
-                        <strong>Gênero:</strong>
-                        Ação / Aventura / FPS
-                    </p>
-
-                    <p>
-                        Far Cry 4 acompanha Ajay Ghale em sua jornada
-                        por Kyrat, uma região dominada pelo conflito
-                        e pelo governo de Pagan Min.
-                    </p>
-
-                    <p>
-                        Conheça a história, os personagens, as facções,
-                        armas, vilões e curiosidades desse universo.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <article class="conquistas">
-
-                <h2>Conquistas</h2>
-
-                <p>
-                    Existem 57 conquistas. <br>                   
-                    Dificuldade fácil.
-                </p>
-
-            </article>
-
-        </section>
-
-
-        <section class="personagens" id="personagens">
-
-            <h2>Personagens em destaque</h2>
-
-
-            <div class="cards">
-
-                <article class="card">
-
-                    <img src="Ajay Ghale.webp"
-                         alt="Personagem Ajay Ghale">
-
-                    <h3>Ajay Ghale</h3>
-
-                    <p>
-                        Personagem principal de Far Cry 4.
-                    </p>
-
-                </article>
-
-
-                <article class="card">
-
-                    <img src="Pagan Min.webp"
-                         alt="Personagem Pagan Min">
-
-                    <h3>Pagan Min</h3>
-
-                    <p>
-                        Principal antagonista de Far Cry 4.
-                    </p>
-
-                </article>
-
-
-                <article class="card">
-
-                    <img src="Ellie.jpg"
-                         alt="Personagem Ellie">
-
-                    <h3>Ellie Williams</h3>
-
-                    <p>
-                        Uma das personagens principais de The Last of Us.
-                    </p>
-
-                </article>
-
-            </div>
-
-        </section>
-
+        </div>
 
         <section class="lista-jogos" id="universos">
 
             <h2>Jogos do LevelUp</h2>
 
 
-            <div class="jogos-grid">
+            <div class="jogos-grid row justify-content-center g-4">
 
 
-                <article class="jogo-card">
+                <article class="jogo-card col-12 col-md-6 col-lg-4">
 
                     <img src="Tlou1.webp"
                          alt="Imagem de The Last of Us Part I">
@@ -202,7 +205,7 @@
                 </article>
 
 
-                <article class="jogo-card">
+                <article class="jogo-card col-12 col-md-6 col-lg-4">
 
                     <img src="Tlou2.jpg"
                          alt="Imagem de The Last of Us Part II">
@@ -224,7 +227,7 @@
                 </article>
 
 
-                <article class="jogo-card">
+                <article class="jogo-card col-12 col-md-6 col-lg-4">
 
                     <img src="HollowKnigth.41ca3834-331c-4d34-b2c9-7dfe318fd168"
                          alt="Imagem de Hollow Knight">

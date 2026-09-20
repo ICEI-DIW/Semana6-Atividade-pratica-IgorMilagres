@@ -100,15 +100,10 @@ body {
 }
 
 .conteudo {
-    display: flex;
-    flex-wrap: wrap;
-
     min-height: 520px;
 }
 
 .jogos {
-    width: 50%;
-
     padding: 70px 60px;
 }
 
@@ -157,8 +152,6 @@ body {
 }
 
 .personagens {
-    width: 50%;
-
     padding: 70px;
 
     border-left: 2px solid #333;
@@ -168,17 +161,7 @@ body {
     margin-bottom: 30px;
 }
 
-.cards {
-    display: flex;
-
-    flex-wrap: wrap;
-
-    gap: 20px;
-}
-
 .card {
-    width: 180px;
-
     padding: 10px;
 
     border: 1px solid #ccc;
@@ -216,17 +199,7 @@ body {
     text-align: center;
 }
 
-.jogos-grid {
-    display: flex;
-
-    justify-content: center;
-
-    gap: 30px;
-}
-
 .jogo-card {
-    width: 300px;
-
     padding: 15px;
 
     border: 1px solid #ccc;
@@ -260,87 +233,4 @@ body {
 
 .rodape p {
     margin: 5px;
-}
-
-@media (max-width: 1000px) {
-
-    .cabecalho {
-        flex-direction: column;
-
-        gap: 30px;
-    }
-
-    .area-direita {
-        align-items: center;
-
-        gap: 20px;
-    }
-
-    .conteudo {
-        flex-direction: column;
-    }
-
-    .jogos,
-    .personagens {
-        width: 100%;
-    }
-
-    .personagens {
-        border-left: none;
-        border-top: 2px solid #333;
-    }
-
-    .jogo-principal {
-        justify-content: center;
-    }
-
-    .conquistas {
-        margin-left: 0;
-    }
-
-    .cards {
-        justify-content: center;
-    }
-
-    .jogos-grid {
-        flex-wrap: wrap;
-    }
-}
-
-
-@media (max-width: 600px) {
-
-    .cabecalho {
-        padding: 20px;
-    }
-
-    .titulo h1 {
-        font-size: 36px;
-    }
-
-    .menu {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .jogos {
-        padding: 40px 20px;
-    }
-
-    .jogo-principal {
-        flex-direction: column;
-    }
-
-    .personagens {
-        padding: 40px 20px;
-    }
-
-    .lista-jogos {
-        padding: 40px 20px;
-    }
-
-    .jogo-card {
-        width: 100%;
-        max-width: 300px;
-    }
 }
